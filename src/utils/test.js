@@ -6,7 +6,7 @@ const options = {
   headers: {
     "content-type": "application/json",
     "X-RapidAPI-Host": "pan-card-verification1.p.rapidapi.com",
-    "X-RapidAPI-Key": "2fe554f732mshc092a3d90ae332ap11848ejsn905aa1dff8a9",
+    "X-RapidAPI-Key": "Your Key Here",
     useQueryString: true,
   },
   body: {
