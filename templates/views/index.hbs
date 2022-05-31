@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAN Details Verification Portal</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="main-content">
+        {{>header}}
+        <p id="lead">
+            Use this portal to verify PAN details with just the PAN Number!
+        </p>
+        <br>
+        <br>
+        <form>
+            <input placeholder="Enter PAN">
+            <button>Search</button>
+        </form>
+        <p id="m1"></p>
+        <p id="m2"></p>
+        <p id="m3"></p>
+        <p id="m4"></p>
+        <p id="m5"></p>
+        <p id="m6"></p>
+    </div>
+    
+    
+    <br>
+    <br>
+    <img class="photo" src="img/pan-photo.jpg" alt="Dik">
+
+    {{>footer}}
+    <script src="js/app.js"></script>
+</body>
+</html>
