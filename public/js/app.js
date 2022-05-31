@@ -21,7 +21,9 @@ weatherForm.addEventListener("submit", (event) => {
     response.json().then((data) => {
       if (data.error) {
         m1.textContent = data.error;
+        block.style.color = "#dc3434";
       } else {
+        block.style.color = "#4109b3";
         m1.textContent = "First Name: " + data.f_name;
         m2.textContent = "Middle Name: " + data.m_name;
         m3.textContent = "Last Name: " + data.l_name;

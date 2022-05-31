@@ -12,6 +12,7 @@ body {
 
 .main-content {
     flex-grow: 1;
+    font-size: large;
 }
 
 footer {
@@ -43,25 +44,38 @@ header a {
 }
 
 input {
-    border: 1px solid #cccccc;
-    padding: 6px;
+    border: 2px solid #cccccc;
+    padding: 10px;
 }
 
 button {
     cursor: pointer;
-    border: 1px solid #888888;
-    background: #888888;
+    border: 2px solid #888888;
+    background: #504f4f;
     color: white;
-    padding: 5px;
+    padding: 10px;
+    border-radius: 6px;
 }
 
 
 #about {
     font-size: large;
-    color: rgb(158, 114, 33);
+    color: rgb(5, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }   
 
 .lead {
     font-size: larger;
     color: #333333;
+}
+
+
+#block {
+    font-size: large;
+    color: blue;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: rgb(225, 227, 225);
+    display: inline-block;
+    border-radius: 5px;
+   
 }
