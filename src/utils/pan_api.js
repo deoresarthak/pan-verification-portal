@@ -7,7 +7,7 @@ const verify = (pan_number, callback) => {
     headers: {
       "content-type": "application/json",
       "X-RapidAPI-Host": "pan-card-verification1.p.rapidapi.com",
-      "X-RapidAPI-Key": "2fe554f732mshc092a3d90ae332ap11848ejsn905aa1dff8a9",
+      "X-RapidAPI-Key": "5ba51662bcmshda3ac1cd2d5318cp1aaec7jsna57324d1c50a",
       useQueryString: true,
     },
     body: {
