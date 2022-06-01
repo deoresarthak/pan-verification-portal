@@ -20,6 +20,8 @@ footer {
     border-top: 2px solid #eeeeee;
     margin-top: 16px;
     padding: 16px 0;
+    
+
 }
 
 header {
@@ -79,3 +81,8 @@ button {
     border-radius: 5px;
    
 }
+
+.afooter {
+    text-decoration: none;
+}
+
